@@ -11,7 +11,6 @@ const ReviewItem = (props) => {
                 <p>Quantity: {quantity}</p>
                 <button onClick={() => handleRemove(key)} className="btn-regular">Remove</button>
             </div>
-
         </div>
     );
 };

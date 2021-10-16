@@ -19,7 +19,6 @@ const useCarts = products => {
             }
             setCart(storedCart);
         }
-
     }, [products]);
     // return necessary things
     return [cart, setCart];
